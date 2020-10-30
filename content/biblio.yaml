@@ -1,60 +1,84 @@
 - title: "A multi-dimensional analysis of technical lag in Debian-based Docker images"
   authors: Ahmed Zerouali, Tom Mens, Alexandre Decan, Jesus Gonzalez-Barahona and Gregorio Robles
-  kind: Journal
+  kind: Journals
   year: 2020
-  published: Empirical Software Engineering, in press, 2020
+  published: Empirical Software Engineering (EMSE), in press, 2020
 - title: "Does Infrastructure as Code Adhere to Semantic Versioning? An Analysis of Ansible Role Evolution"
   authors:  Ruben Opdebeeck, Ahmed Zerouali, Camilo Velazquez-Rodriguez and Coen De Roover
-  kind: Conference
-  published: 20th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) co-located with ICSME , Adelaide, Australia (virtual), 2020
+  kind: Conferences
+  published: 20th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) co-located with ICSME
   year: 2020
 - title: "Technical Lag: Measuring the outdatedness, vulnerability and bugginess of software"
   authors: Tom Mens, Ahmed Zerouali
   kind: Presentation
   year: 2020
-  published: CHAOSScon Europe 2020, 31 January 2020, Brussels, Belgium
+  published: CHAOSScon Europe 2020, Brussels, Belgium
   link: https://www.slideshare.net/tommens/measuring-technical-lag-in-software-deployments-chaosscon-2020
 - title: "A Measurement Framework for Analyzing Technical Lag in Open-Source Software Ecosystems"
   authors: Ahmed Zerouali
   kind: PhD Thesis
   year: 2019
-  published: University of Mons, Belgium, September 4th 2019
+  published: University of Mons, Belgium
   link: https://github.com/neglectos/PhD_Dissertation/raw/master/PhD_Dissertation.pdf
 - title: "A Formal Framework for Measuring Technical Lag in Component Repositories - and its Application to npm"
   authors: Ahmed Zerouali, Tom Mens, Jesus M. Gonzalez-Barahona, Alexandre Decan, Eleni Constantinou, Gregorio Robles
-  kind: Journal
+  kind: Journals
   year: 2019
-  published: Wiley Journal on Software Evolution and Process
+  published: Wiley Journal on Software Evolution and Process (JSEP)
   link: https://doi.org/10.1002/smr.2157
+- title: "ConPan: A Tool to Analyze Packages in Software Containers"
+  authors: Ahmed Zerouali, Valerio Cosentino, Jesus M. Gonzalez-Barahona, Gregorio Robles, Tom Mens
+  kind: Conferences
+  year: 2019
+  link: https://doi.org/10.5281/zenodo.2940889
+  link2: https://www.slideshare.net/tommens/conpan-analysing-packages-installed-in-docker-containers
+  published: International Conference on Mining Software Repositories (MSR)
 - title: "On the Relation between Outdated Docker Containers, Severity Vulnerabilities, and Bugs"
   authors: Ahmed Zerouali, Tom Mens, Gregorio Robles and Jesus M. Gonzalez-Barahona
-  kind: Conference
+  kind: Conferences
   year: 2019
-  published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering
+  published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
   link: https://arxiv.org/abs/1811.12874
   link2: https://doi.org/10.1109/SANER.2019.8668013
 - title: "On the Impact of Outdated and Vulnerable Javascript Packages in Docker Images"
   authors: Ahmed Zerouali, Valerio Cosentino, Tom Mens, Gregorio Robles and Jesus M. Gonzalez-Barahona
-  kind: Conference
+  kind: Conferences
   year: 2019
-  published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering
+  published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
   link: https://doi.org/10.1109/SANER.2019.8667984
-- title: "ConPan: A Tool to Analyze Packages in Software Containers"
-  authors: Ahmed Zerouali, Valerio Cosentino, Jesus M. Gonzalez-Barahona, Gregorio Robles, Tom Mens
-  kind: Conference
-  year: 2019
-  link: https://doi.org/10.5281/zenodo.2940889
-  link2: https://www.slideshare.net/tommens/conpan-analysing-packages-installed-in-docker-containers
-  published: International Conference on Mining Software Repositories (MSR 2019)
 - title: "On the Diversity of Software Package Popularity Metrics: An Empirical Study of npm"
   authors: Ahmed Zerouali, Tom Mens, Gregorio Robles and Jesus M. Gonzalez-Barahona
-  kind: Conference
+  kind: Conferences
   year: 2019
-  published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering
+  published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
   link: https://arxiv.org/abs/1901.04217
+- title: "SortingHat: wizardry on software project members"
+  authors: David Moreno, Santiago Dueñas, Valerio Cosentino, Miguel Angel Fernandez, Ahmed Zerouali, Gregorio Robles, Jesus Gonzalez-Barahona
+  kind: Conferences
+  published: IEEE/ACM 41st International Conference on Software Engineering (ICSE)
+  year: 2019
+  link: https://www.researchgate.net/profile/Valerio_Cosentino/publication/331088184_SortingHat_Wizardry_on_Software_Project_Members/links/5c651f81299bf1d14cc4d64e/SortingHat-Wizardry-on-Software-Project-Members.pdf
 - title: An Empirical Analysis of Technical Lag in npm Package Dependencies
   authors: Ahmed Zerouali, Eleni Constantinou, Tom Mens, Gregorio Robles, Jesus Gonzalez-Barahona
-  kind: Conference
-  published: International Conference on Software Reuse (ICSR 2018)
+  kind: Conferences
+  published: 17th International Conference on Software Reuse (ICSR)
   year: 2018
-  link: https://doi.org/10.1007/978-3-319-90421-4_6
+  link: https://www.researchgate.net/profile/Ahmed_Zerouali/publication/324149427_An_Empirical_Analysis_of_Technical_Lag_in_npm_Package_Dependencies/links/5c1b7dbca6fdccfc705aeb29/An-Empirical-Analysis-of-Technical-Lag-in-npm-Package-Dependencies.pdf
+- title: "Graal: The Quest for Source Code Knowledge"
+  authors: Valerio Cosentino, Santiago Duenas, Ahmed Zerouali, Gregorio Robles, Jesus Gonzalez-Barahona
+  kind: Conferences
+  published: 18th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
+  year: 2018
+  link: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/9BF13A51-5C2A-4479-845E-BC1CCB09912B/Zerouali2018-SCAM-graal.pdf
+- title: Analyzing the evolution of testing library usage in open source Java projects
+  authors: Ahmed Zerouali, Tom Mens
+  kind: Conferences
+  published: 24th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+  year: 2017
+  link: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/2B790506-9FEE-4053-9EE1-727B1F249B5B/saner17era-eraid219-p-342c452-30037-final.pdf
+- title: An empirical comparison of the development history of cloudstack and eucalyptus
+  authors: Ahmed Zerouali, Tom Mens
+  kind: Conferences
+  published: International Conference on Smart Digital Environment
+  year: 2017
+  link: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/9E78F727-280C-4D05-A6D3-03EC66A513EA/sample-sigconf.pdf

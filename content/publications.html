@@ -1,0 +1,34 @@
+{% extends "_onecol.html" %}
+
+{% block title %}Ahmed Zerouali{% endblock %}
+
+{% block body %}
+<h2>Publications</h2>
+
+
+{% set biblio = load_yaml('biblio.yaml') %}
+
+{% set last = {'year': -1, 'kind': None} %}
+
+{% for item in biblio|sort(reverse=True, attribute='kind')|rejectattr('kind', 'equalto', 'Presentation') %}
+
+  {% if last['kind'] != item.kind %}
+      <h4 style="font-weight: bold; color: #1F618D">{{ item.kind }}</h4>
+
+    {% if last.update({'kind': item.kind, 'kind': None}) %}{% endif %}
+  {% endif %}
+
+  {% if last['kind'] != item.kind %}
+    {% if last.update({'kind': item.kind}) %}{% endif %}
+  {% endif %}
+  <p>
+    {{ item.year }} - <strong>{{ item.title }}</strong><br />
+    {{ item.authors }}
+    {% if item.published %}<br />{{ item.published }}{% endif %}
+    {% if item.misc %}<br />{{ item.misc }}{% endif %}
+    {% if item.link %}<br />[<a href="{{ item.link }}">Download</a>]{% endif %}
+<!--     {% if item.link2 %}<br /><a href="{{ item.link2 }}">{{ item.link2 }}</a>{% endif %}
+ -->  </p>
+{% endfor %}
+
+{% endblock %}
