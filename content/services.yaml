@@ -1,3 +1,4 @@
+# Reviewing
 - where: Journal of Information Security and Applications.
   kind: Review
   year: 2020
@@ -25,3 +26,24 @@
   kind: Review
   sub: "Sub-review: "
   year: 2020
+
+# Oraganization 
+- event: ChaossCon Europ 2020
+  where: Co-located with FOSDEM in Brussels
+  kind: Organization
+  link: https://chaoss.community/chaosscon-2020-eu/
+- event: "Moroccan Collegiate Programming Contest 2014"
+  where: ENSIAS, Rabat - Morocco
+  kind: Organization
+
+# Teaching
+- role: "Teaching Assistant for the <b style=\"font-style: italic;\">Software Architectures</b> course"
+  course: "For Master students at the Vrije Universiteit Brussel, Brussels - Belgium"
+  prof: "With <a href=\"http://soft.vub.ac.be/~cderoove/\">Prof. Coen De Roover</a>"
+  kind: Teaching
+
+- role: "Teaching Assistant for the <b style=\"font-style: italic;\">Software Evolution</b> course"
+  course: "For Master students at the University of Mons, Mons - Belgium"
+  prof: "With <a href=\"http://informatique.umons.ac.be/perso/Mens.Tom/\">Prof. Tom Mens</a>"
+  kind: Teaching
+

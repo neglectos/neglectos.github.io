@@ -7,6 +7,17 @@
 
 {% set services = load_yaml('services.yaml') %}
 
+
+<h3>Organizing Committee Member</h3>
+{% for item in services|selectattr('kind', 'equalto', 'Organization') %}
+<p>
+        <strong>{{ item.event }} </strong></br>
+        {{ item.where }}
+        {% if item.link %}<br />[<a href="{{ item.link }}">Website</a>]{% endif %}
+</p>
+{% endfor %}
+
+
 <h3>Reviewer for International Journals and Conferences</h3>
 {% for item in services|selectattr('kind', 'equalto', 'Review') %}
         {% if item.sub %}{{ item.sub }}{% endif %} <strong>{{ item.where }} </strong>{{ item.year }}
