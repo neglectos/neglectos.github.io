@@ -1,0 +1,21 @@
+{% extends "_onecol.html" %}
+
+{% block title %}Ahmed Zerouali{% endblock %}
+
+{% block body %}
+<h2>Talks</h2>
+
+
+{% set biblio = load_yaml('biblio.yaml') %}
+
+{% for item in biblio|sort(reverse=True, attribute='year')|selectattr('kind', 'equalto', 'Presentation') %}
+  <p>
+    <strong>{{ item.title }}</strong><br />
+    {{ item.authors }}
+    {% if item.published %}<br />{{ item.published }}{% endif %}
+    {% if item.misc %}<br />{{ item.misc }}{% endif %}
+    {% if item.link %}<br />[<a href="{{ item.link }}">Slides</a>]{% endif %}
+  </p>
+{% endfor %}
+
+{% endblock %}

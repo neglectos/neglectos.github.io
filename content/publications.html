@@ -13,7 +13,7 @@
 {% for item in biblio|sort(reverse=True, attribute='kind')|rejectattr('kind', 'equalto', 'Presentation') %}
 
   {% if last['kind'] != item.kind %}
-      <h4 style="font-weight: bold; color: #1F618D">{{ item.kind }}</h4>
+      <h3>{{ item.kind }}</h3>
 
     {% if last.update({'kind': item.kind, 'kind': None}) %}{% endif %}
   {% endif %}
@@ -27,8 +27,9 @@
     {% if item.published %}<br />{{ item.published }}{% endif %}
     {% if item.misc %}<br />{{ item.misc }}{% endif %}
     {% if item.link %}<br />[<a href="{{ item.link }}">Download</a>]{% endif %}
-<!--     {% if item.link2 %}<br /><a href="{{ item.link2 }}">{{ item.link2 }}</a>{% endif %}
- -->  </p>
+    {% if item.link2 %}<br />[<a href="{{ item.link2 }}">Slides</a>]{% endif %}
+    {% if item.award %}<br/><a href="assets/other/best_paper_saner.pdf" style="font-weight: bold">{{ item.award }}{% endif %}</a>
+  </p>
 {% endfor %}
 
 {% endblock %}

@@ -1,0 +1,16 @@
+{% extends "_onecol.html" %}
+
+{% block title %}Ahmed Zerouali{% endblock %}
+
+{% block body %}
+<h2>Services</h2>
+
+{% set services = load_yaml('services.yaml') %}
+
+<h3>Reviewer for International Journals and Conferences</h3>
+{% for item in services|selectattr('kind', 'equalto', 'Review') %}
+        {% if item.sub %}{{ item.sub }}{% endif %} <strong>{{ item.where }} </strong>{{ item.year }}
+    </br>
+{% endfor %}
+
+{% endblock %}

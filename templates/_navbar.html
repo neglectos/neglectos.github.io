@@ -10,7 +10,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ "./"|relative }}">
+          <a class="navbar-brand" href="{{ "./index.html"|relative }}">
 <!--             <img class="hidden-xs hidden-sm" src="{{ "assets/pictures/pic.png"|relative }}" />
  -->            <span >Ahmed Zerouali</span>
           </a>
@@ -20,6 +20,9 @@
             <li{% if page == 'index.html' %} class="active"{% endif %}><a href="index.html">Home</a></li>
             {% for text, url in [
                 ('Publications', 'publications.html'),
+                ('Talks', 'talks.html'),
+                ('Services', 'services.html'),
+
               ] -%}
               <li{% if page == url %} class="active"{% endif %}><a href="{{ url|relative }}">{{ text }}</a></li>
             {% endfor %}
