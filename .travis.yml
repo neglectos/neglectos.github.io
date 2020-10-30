@@ -1,0 +1,12 @@
+language: python
+python: 3.5
+script:
+ - sh build.sh
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: output/
+  target_branch: main
+  on:
+    branch: sources
