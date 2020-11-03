@@ -12,7 +12,7 @@
 <p>
         <strong>{{ item.role }} </strong></br>
         {{ item.course }}</br>
-        {% if item.prof %} {{ item.prof }} {% endif %}
+        {% if item.prof %} {{ item.prof }}, {% endif %} {{ item.year }}
 </p>
 {% endfor %}
 
