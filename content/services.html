@@ -10,38 +10,43 @@
 
 <h3>Organizing Committee Member</h3>
 {% for item in services|selectattr('kind', 'equalto', 'Organization') %}
-<p>
+<p><li>
         <strong>{{ item.event }} </strong></br>
         {{ item.where }}
         {% if item.link %}<br />[<a href="{{ item.link }}">Website</a>]{% endif %}
-</p>
+</li></p>
 {% endfor %}
 
 
 <h3>Reviewer for International Journals and Conferences</h3>
+
 {% for item in services|selectattr('kind', 'equalto', 'Review') %}
+<li>
         {% if item.sub %}{{ item.sub }}{% endif %} <strong>{{ item.where }} </strong>{{ item.year }}
     </br>
+ </li>
 {% endfor %}
 
 <h3>Awards</h3>
 {% for item in services|selectattr('kind', 'equalto', 'Awards') %}
-<p>
+<p><li>
+
         <strong>{{ item.award }} </strong></br>
         {{ item.where }}
         {% if item.link %}<br />[<a href="{{ item.link }}">PDF</a>]{% endif %}
-</p>
+</li></p>
 {% endfor %}
 
 <h3>Research Projects</h3>
 {% for item in services|selectattr('kind', 'equalto', 'Projects') %}
-<p>
+<p><li>
+
         <strong>{{ item.project }} </strong></br>
         {{ item.role }}
         {{ item.period }}
         {{ item.event }}
         {% if item.link %}<br />[<a href="{{ item.link }}">Website</a>]{% endif %}
-</p>
+</li></p>
 {% endfor %}
 
 {% endblock %}

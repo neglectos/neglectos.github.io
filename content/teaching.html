@@ -10,9 +10,9 @@
 
 {% for item in services|selectattr('kind', 'equalto', 'Teaching') %}
 <p>
-        <strong>{{ item.role }} </strong></br>
+        <li><strong>{{ item.role }} </strong></br>
         {{ item.course }}</br>
-        {% if item.prof %} {{ item.prof }}, {% endif %} {{ item.year }}
+        {% if item.prof %} {{ item.prof }}, {% endif %} {{ item.year }}</li>
 </p>
 {% endfor %}
 
