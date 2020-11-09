@@ -68,12 +68,6 @@
   role: PhD student
   kind: Projects
 
-- project: "DISSE: <b style=\"font-style: italic;\">Data-Intensive Software System Evolution</b>"
-  period: "Jun 2016 - Jun 2017"
-  link: https://www.researchgate.net/project/DISSE-Data-Intensive-Software-System-Evolution
-  role: PhD student
-  kind: Projects
-
 # Awards
 - award: "IEEE Computer Society TCSE Best Paper Award"
   where: "SANER 2019, Hangzhou - China"
