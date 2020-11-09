@@ -3,7 +3,7 @@
 {% block title %}Ahmed Zerouali{% endblock %}
 
 {% block body %}
-<h2>Services</h2>
+<h1>Services</h1>
 
 {% set services = load_yaml('services.yaml') %}
 
@@ -22,6 +22,26 @@
 {% for item in services|selectattr('kind', 'equalto', 'Review') %}
         {% if item.sub %}{{ item.sub }}{% endif %} <strong>{{ item.where }} </strong>{{ item.year }}
     </br>
+{% endfor %}
+
+<h3>Awards</h3>
+{% for item in services|selectattr('kind', 'equalto', 'Awards') %}
+<p>
+        <strong>{{ item.award }} </strong></br>
+        {{ item.where }}
+        {% if item.link %}<br />[<a href="{{ item.link }}">PDF</a>]{% endif %}
+</p>
+{% endfor %}
+
+<h3>Research Projects</h3>
+{% for item in services|selectattr('kind', 'equalto', 'Projects') %}
+<p>
+        <strong>{{ item.project }} </strong></br>
+        {{ item.role }}
+        {{ item.period }}
+        {{ item.event }}
+        {% if item.link %}<br />[<a href="{{ item.link }}">Website</a>]{% endif %}
+</p>
 {% endfor %}
 
 {% endblock %}

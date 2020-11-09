@@ -49,3 +49,33 @@
   kind: Teaching
   year: 2019/2020
 
+# Projects
+- project: "SECO-ASSIST: <b style=\"font-style: italic;\">Automated Assistance for Developing Software in Ecosystems of the Future</b>"
+  period: "Mar 2020 - ongoing"
+  link: https://secoassist.github.io/
+  role: Postdoc researcher
+  kind: Projects
+
+- project: "SENECA: <b style=\"font-style: italic;\">Software Engineering in Enterprise Cloud Applications</b>"
+  period: "Sep 2017 - Dec 2018"
+  link: http://senecaproject.github.io/
+  role: PhD student
+  kind: Projects
+
+- project: "DISSE: <b style=\"font-style: italic;\">Data-Intensive Software System Evolution</b>"
+  period: "Jun 2016 - Jun 2017"
+  link: https://www.researchgate.net/project/DISSE-Data-Intensive-Software-System-Evolution
+  role: PhD student
+  kind: Projects
+
+- project: "DISSE: <b style=\"font-style: italic;\">Data-Intensive Software System Evolution</b>"
+  period: "Jun 2016 - Jun 2017"
+  link: https://www.researchgate.net/project/DISSE-Data-Intensive-Software-System-Evolution
+  role: PhD student
+  kind: Projects
+
+# Awards
+- award: "IEEE Computer Society TCSE Best Paper Award"
+  where: "SANER 2019, Hangzhou - China"
+  link: "assets/other/best_paper_saner.pdf"
+  kind: Awards
