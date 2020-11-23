@@ -27,7 +27,7 @@
     {% if item.published %}<br />{{ item.published }}{% endif %}
     {% if item.misc %}<br />{{ item.misc }}{% endif %}
     {% if item.link %}<br />[<a href="{{ item.link }}">Download</a>]{% endif %}
-    {% if item.link2 %}<br />[<a href="{{ item.link2 }}">Slides</a>]{% endif %}
+    {% if item.link2 %}[<a href="{{ item.link2 }}">Slides</a>]{% endif %}
     {% if item.award %}<br/><a href="assets/other/best_paper_saner.pdf" style="font-weight: bold">{{ item.award }}{% endif %}</a>
   </li></p>
 {% endfor %}
