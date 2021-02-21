@@ -4,12 +4,15 @@
   year: 2020
 - where: Empirical Software Engineering Journal.
   kind: Review
-  year: "2019, 2020"
+  year: "2019, 2020, 2021"
 - where: Transactions on Software Engineering Journal.
   kind: Review
   year: "2019, 2020"
 - where: Software Quality Journal.
   kind: Review
+  year: "2020, 2021"
+- where: Journal of IEEE Software
+  kind: review
   year: 2020
 - where: International Conference on Cloud Computing and Artificial Intelligence.
   kind: Review
@@ -17,7 +20,7 @@
 - where: Mining Software Repositories.
   kind: Review
   sub: "Sub-review: "
-  year: 2020
+  year: "2020, 2021"
 - where: International Conference on Software Maintenance and Evolution.
   kind: Review
   sub: "Sub-review: "
@@ -28,6 +31,10 @@
   year: 2020
 
 # Oraganization 
+- event: The 4th International Workshop on Software Health in Projects, Ecosystems and Communities (SoHeal)
+  where: Co-located with ICSE 2021
+  kind: Organization
+  link: http://soheal.github.io/
 - event: ChaossCon Europ 2020
   where: Co-located with FOSDEM in Brussels
   kind: Organization
