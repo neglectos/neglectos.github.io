@@ -4,6 +4,18 @@
   year: 2021
   published: Empirical Software Engineering (EMSE)
   link: https://link.springer.com/article/10.1007/s10664-020-09908-6
+- title: "Identifying Versions of Libraries used in Stack Overflow Code Snippets"
+  authors: Ahmed Zerouali, Camilo Velazquez-Rodriguez and Coen De Roover
+  kind: Conferences
+  year: 2021
+  published: Proceedings of the 18th International Conference on Mining Software Repositories (MSR)
+  link: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-02.pdf
+- title: "Andromeda: A Dataset of Ansible Galaxy Roles and Their Evolution"
+  authors: Ruben Opdebeeck, Ahmed Zerouali and Coen De Roover
+  kind: Conferences
+  year: 2021
+  published: Proceedings of the 18th International Conference on Mining Software Repositories (MSR)
+  link: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-03.pdf
 - title: "Does Infrastructure as Code Adhere to Semantic Versioning? An Analysis of Ansible Role Evolution"
   authors:  Ruben Opdebeeck, Ahmed Zerouali, Camilo Velazquez-Rodriguez and Coen De Roover
   kind: Conferences
