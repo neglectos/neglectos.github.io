@@ -26,8 +26,10 @@
     {{ item.authors }}
     {% if item.published %}<br />{{ item.published }}{% endif %}
     {% if item.misc %}<br />{{ item.misc }}{% endif %}
-    {% if item.link %}<br />[<a href="{{ item.link }}">Download</a>]{% endif %}
-    {% if item.link2 %}[<a href="{{ item.link2 }}">Slides</a>]{% endif %}
+    <br />
+    {% if item.doi %}[<a href="{{ item.doi }}">DOI</a>]{% endif %}
+    {% if item.pdf %}[<a href="{{ item.pdf }}">PDF</a>]{% endif %}
+    {% if item.slides %}[<a href="{{ item.slides }}">Slides</a>]{% endif %}
     {% if item.award %}<br/><a href="assets/other/best_paper_saner.pdf" style="font-weight: bold">{{ item.award }}{% endif %}</a>
   </li></p>
 {% endfor %}

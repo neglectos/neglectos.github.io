@@ -3,49 +3,55 @@
   kind: Journals
   year: 2021
   published: Science of Computer Programming
-  link: https://doi.org/10.1016/j.scico.2021.102653
+  doi: https://doi.org/10.1016/j.scico.2021.102653
+  pdf: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-05.pdf
 - title: "A multi-dimensional analysis of technical lag in Debian-based Docker images"
   authors: Ahmed Zerouali, Tom Mens, Alexandre Decan, Jesus Gonzalez-Barahona and Gregorio Robles
   kind: Journals
   year: 2021
   published: Empirical Software Engineering (EMSE)
-  link: https://doi.org/10.1007/s10664-020-09908-6
+  doi: https://doi.org/10.1007/s10664-020-09908-6
+  pdf: https://decan.lexpage.net/files/EMSE-2021.pdf
 - title: "Identifying Versions of Libraries used in Stack Overflow Code Snippets"
   authors: Ahmed Zerouali, Camilo Velazquez-Rodriguez and Coen De Roover
   kind: Conferences
   year: 2021
   published: Proceedings of the 18th International Conference on Mining Software Repositories (MSR)
-  link: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-02.pdf
+  pdf: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-02.pdf
 - title: "Andromeda: A Dataset of Ansible Galaxy Roles and Their Evolution"
   authors: Ruben Opdebeeck, Ahmed Zerouali and Coen De Roover
   kind: Conferences
   year: 2021
   published: Proceedings of the 18th International Conference on Mining Software Repositories (MSR)
-  link: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-03.pdf
+  pdf: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-03.pdf
 - title: "Does Infrastructure as Code Adhere to Semantic Versioning? An Analysis of Ansible Role Evolution"
   authors:  Ruben Opdebeeck, Ahmed Zerouali, Camilo Velazquez-Rodriguez and Coen De Roover
   kind: Conferences
   published: 20th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) co-located with ICSME
   year: 2020
+  pdf: http://soft.vub.ac.be/Publications/2020/vub-tr-soft-20-08.pdf
+  doi: https://doi.org/10.1109/SCAM51674.2020.00032
 - title: "A Measurement Framework for Analyzing Technical Lag in Open-Source Software Ecosystems"
   authors: Ahmed Zerouali
   kind: Thesis
   year: 2019
   published: University of Mons, Belgium
-  link: https://github.com/neglectos/PhD_Dissertation/raw/master/PhD_Dissertation.pdf
-  link2: https://www.slideshare.net/neglectos/phd-public-defense-a-measurement-framework-for-analyzing-technical-lag-in-opensource-software-ecosystems
+  doi: https://doi.org/10.13140/RG.2.2.14414.41287
+  pdf: https://github.com/neglectos/PhD_Dissertation/raw/master/PhD_Dissertation.pdf
+  slides: https://www.slideshare.net/neglectos/phd-public-defense-a-measurement-framework-for-analyzing-technical-lag-in-opensource-software-ecosystems
 - title: "A Formal Framework for Measuring Technical Lag in Component Repositories - and its Application to npm"
   authors: Ahmed Zerouali, Tom Mens, Jesus M. Gonzalez-Barahona, Alexandre Decan, Eleni Constantinou, Gregorio Robles
   kind: Journals
   year: 2019
   published: Wiley Journal on Software Evolution and Process (JSEP)
-  link: https://doi.org/10.1002/smr.2157
+  doi: https://doi.org/10.1002/smr.2157
+  pdf: https://decan.lexpage.net/files/jsep-2019.pdf
 - title: "ConPan: A Tool to Analyze Packages in Software Containers"
   authors: Ahmed Zerouali, Valerio Cosentino, Jesus M. Gonzalez-Barahona, Gregorio Robles, Tom Mens
   kind: Conferences
   year: 2019
-  link: https://doi.org/10.5281/zenodo.2940889
-  link2: https://www.slideshare.net/tommens/conpan-analysing-packages-installed-in-docker-containers
+  doi: https://doi.org/10.5281/zenodo.2940889
+  slides: https://www.slideshare.net/tommens/conpan-analysing-packages-installed-in-docker-containers
   published: International Conference on Mining Software Repositories (MSR)
 - title: "On the Relation between Outdated Docker Containers, Severity Vulnerabilities, and Bugs"
   authors: Ahmed Zerouali, Tom Mens, Gregorio Robles and Jesus M. Gonzalez-Barahona
@@ -53,101 +59,104 @@
   year: 2019
   award: Best Paper Award
   published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
-  link: https://arxiv.org/abs/1811.12874
-  link2: https://www.slideshare.net/tommens/on-the-relation-between-outdated-docker-containers-severity-vulnerabilities-and-bugs
+  doi: https://doi.org/10.1109/SANER.2019.8668013
+  pdf: https://arxiv.org/pdf/1811.12874.pdf
+  slides: https://www.slideshare.net/tommens/on-the-relation-between-outdated-docker-containers-severity-vulnerabilities-and-bugs
 - title: "On the Impact of Outdated and Vulnerable Javascript Packages in Docker Images"
   authors: Ahmed Zerouali, Valerio Cosentino, Tom Mens, Gregorio Robles and Jesus M. Gonzalez-Barahona
   kind: Conferences
   year: 2019
   published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
-  link: https://doi.org/10.1109/SANER.2019.8667984
-  link2: https://www.slideshare.net/tommens/on-the-relation-between-outdated-docker-containers-severity-vulnerabilities-and-bugs
+  doi: https://doi.org/10.1109/SANER.2019.8667984
+  slides: https://www.slideshare.net/tommens/on-the-relation-between-outdated-docker-containers-severity-vulnerabilities-and-bugs
 - title: "On the Diversity of Software Package Popularity Metrics: An Empirical Study of npm"
   authors: Ahmed Zerouali, Tom Mens, Gregorio Robles and Jesus M. Gonzalez-Barahona
   kind: Conferences
   year: 2019
   published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
-  link: https://arxiv.org/abs/1901.04217
-  link2: https://www.slideshare.net/neglectos/on-the-diversity-of-software-package-popularity-metrics-an-empirical-study-of-npm
+  pdf: https://arxiv.org/pdf/1901.04217.pdf
+  doi: https://doi.org/10.1109/SANER.2019.8667997
+  slides: https://www.slideshare.net/neglectos/on-the-diversity-of-software-package-popularity-metrics-an-empirical-study-of-npm
 - title: "SortingHat: wizardry on software project members"
   authors: David Moreno, Santiago Dueñas, Valerio Cosentino, Miguel Angel Fernandez, Ahmed Zerouali, Gregorio Robles, Jesus Gonzalez-Barahona
   kind: Conferences
   published: IEEE/ACM 41st International Conference on Software Engineering (ICSE)
   year: 2019
-  link: https://www.researchgate.net/profile/Valerio_Cosentino/publication/331088184_SortingHat_Wizardry_on_Software_Project_Members/links/5c651f81299bf1d14cc4d64e/SortingHat-Wizardry-on-Software-Project-Members.pdf
+  doi: https://doi.org/10.1109/ICSE-Companion.2019.00036
+  pdf: https://www.researchgate.net/profile/Valerio_Cosentino/publication/331088184_SortingHat_Wizardry_on_Software_Project_Members/links/5c651f81299bf1d14cc4d64e/SortingHat-Wizardry-on-Software-Project-Members.pdf
 - title: An Empirical Analysis of Technical Lag in npm Package Dependencies
   authors: Ahmed Zerouali, Eleni Constantinou, Tom Mens, Gregorio Robles, Jesus Gonzalez-Barahona
   kind: Conferences
   published: 17th International Conference on Software Reuse (ICSR)
   year: 2018
-  link: https://www.researchgate.net/profile/Ahmed_Zerouali/publication/324149427_An_Empirical_Analysis_of_Technical_Lag_in_npm_Package_Dependencies/links/5c1b7dbca6fdccfc705aeb29/An-Empirical-Analysis-of-Technical-Lag-in-npm-Package-Dependencies.pdf
-  link2: https://www.slideshare.net/neglectos/icsr2018
+  doi: https://doi.org/10.1007/978-3-319-90421-4_6
+  pdf: https://www.researchgate.net/profile/Ahmed_Zerouali/publication/324149427_An_Empirical_Analysis_of_Technical_Lag_in_npm_Package_Dependencies/links/5c1b7dbca6fdccfc705aeb29/An-Empirical-Analysis-of-Technical-Lag-in-npm-Package-Dependencies.pdf
+  slides: https://www.slideshare.net/neglectos/icsr2018
 - title: "Graal: The Quest for Source Code Knowledge"
   authors: Valerio Cosentino, Santiago Duenas, Ahmed Zerouali, Gregorio Robles, Jesus Gonzalez-Barahona
   kind: Conferences
   published: 18th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
   year: 2018
-  link: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/9BF13A51-5C2A-4479-845E-BC1CCB09912B/Zerouali2018-SCAM-graal.pdf
+  doi: https://doi.org/10.1109/SCAM.2018.00021
+  pdf: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/9BF13A51-5C2A-4479-845E-BC1CCB09912B/Zerouali2018-SCAM-graal.pdf
 - title: Analyzing the evolution of testing library usage in open source Java projects
   authors: Ahmed Zerouali, Tom Mens
   kind: Conferences
   published: 24th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
   year: 2017
-  link: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/2B790506-9FEE-4053-9EE1-727B1F249B5B/saner17era-eraid219-p-342c452-30037-final.pdf
-  link2: https://www.slideshare.net/neglectos/analyzing-the-evolution-of-testing-library-usage-in-open-source-java-projects
+  doi: https://doi.org/10.1109/SANER.2017.7884645
+  pdf: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/2B790506-9FEE-4053-9EE1-727B1F249B5B/saner17era-eraid219-p-342c452-30037-final.pdf
+  slides: https://www.slideshare.net/neglectos/analyzing-the-evolution-of-testing-library-usage-in-open-source-java-projects
 - title: An empirical comparison of the development history of cloudstack and eucalyptus
   authors: Ahmed Zerouali, Tom Mens
   kind: Conferences
   published: International Conference on Smart Digital Environment
   year: 2017
-  link: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/9E78F727-280C-4D05-A6D3-03EC66A513EA/sample-sigconf.pdf
-  link2: https://www.slideshare.net/neglectos/an-empirical-comparison-of-the-development-history-of-cloudstack-and-eucalyptus
-
+  doi: https://doi.org/10.1145/3128128.3128146
+  pdf: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/9E78F727-280C-4D05-A6D3-03EC66A513EA/sample-sigconf.pdf
+  slides: https://www.slideshare.net/neglectos/an-empirical-comparison-of-the-development-history-of-cloudstack-and-eucalyptus
 - title: "Technical Lag: Measuring the outdatedness, vulnerability and bugginess of software"
   authors: Tom Mens and Ahmed Zerouali
   kind: Presentation
   year: 2020
   published: CHAOSScon Europe 2020, Brussels, Belgium
-  link: https://www.slideshare.net/tommens/measuring-technical-lag-in-software-deployments-chaosscon-2020
+  slides: https://www.slideshare.net/tommens/measuring-technical-lag-in-software-deployments-chaosscon-2020
 - title: A Formal Framework for Measuring Technical Lag in Component Repositories
   authors: Ahmed Zerouali
   kind: Presentation
   year: 2019
   published: BENEVOL, Brussels - Belgium.
-  link: https://www.slideshare.net/neglectos/technical-lag-in-software-ecosystems
+  slides: https://www.slideshare.net/neglectos/technical-lag-in-software-ecosystems
 - title: Analyzing Technical Lag in Docker Images
   authors: Ahmed Zerouali
   kind: Presentation
   year: 2018
   published: BENEVOL, Delft - The Netherlands
-  link: https://www.slideshare.net/neglectos/technical-lag-in-docker-containers
+  slides: https://www.slideshare.net/neglectos/technical-lag-in-docker-containers
 - title: "Software Health of Reusable Systems: a Study of Technical Lag in npm and Docker"
   authors: Ahmed Zerouali
   kind: Presentation
   year: 2018
   published: SoHeal, Gothenburg - Sweden
-  link: https://www.slideshare.net/neglectos/technical-lag-in-npm-and-docker-ecosystems
+  slides: https://www.slideshare.net/neglectos/technical-lag-in-npm-and-docker-ecosystems
 - title: Technical lag for software deployments
   authors: Jesus Gonzalez-Barahona and Ahmed Zerouali
   kind: Presentation
   year: 2018
   published: IMDEA initiative, Madrid - Spain
-  link: 
 - title: On Popularity and Quality Metrics of npm Packages
   authors: Ahmed Zerouali
   kind: Presentation
   year: 2017
   published: BENEVOL, Antwerp - Belgium
-  link: 
 - title: Analysis And Observations Of The Evolution Of Testing Library Usage
   authors: Ahmed Zerouali
   kind: Presentation
   year: 2017
   published: SATOSSE, Madrid - Spain
-  link: 
 - title: On the Usage Evolution of Java Testing Libraries
   authors: Ahmed Zerouali
   kind: Presentation
   year: 2016
   published: BENEVOL, Utrecht - The Netherlands
-  link: https://www.slideshare.net/neglectos/analyzing-the-evolution-of-testing-library-usage-in-open-source-java-projects-151860509
+  slides: https://www.slideshare.net/neglectos/analyzing-the-evolution-of-testing-library-usage-in-open-source-java-projects-151860509
